@@ -169,6 +169,8 @@ knex
 ```js
   .whereNull('updated_at')
   .whereNotNull(···)
+  .orWhereNull('updated_at')
+  .orWhereNotNull('updated_at')
 ```
 
 ```js
